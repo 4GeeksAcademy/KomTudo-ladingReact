@@ -16,15 +16,18 @@ const Home = () => {
 		<div className="vh-100">
 			<Navbar />
 			<Jumbotron />
-			
-			<div className="row col.md-3 mx-5 mt-5">
-			<h1 className="d-flex justify-content-center">GATETES</h1>
-				{DataCard().map(key => (
-					<ModuleCard img={key.img} tittle={key.tittle} text={key.cardText} button={key.button} />
-				))}
+
+			<div className="row   mx-md-5 mt-5">
+				<h1 className="d-flex justify-content-center gap-3">GATETES</h1>
+				
+					{DataCard().map(key => (
+						<ModuleCard img={key.img} tittle={key.tittle} text={key.cardText} button={key.button} />
+					))}
+				
+
 			</div>
-			<div className="row col.md-3 mx-5 mt-5">
-			<h1 className="d-flex justify-content-center">BARCAZOS</h1>
+			<div className="row   mx-md-5 mt-5">
+				<h1 className="d-flex justify-content-center gap-3">BARCAZOS</h1>
 				{DataShips.map(key => (
 					<ModuleCard img={key.img} tittle={key.Model} text={key.cardText} button={key.Country} />
 				))}

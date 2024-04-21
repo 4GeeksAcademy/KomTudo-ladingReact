@@ -3,7 +3,7 @@ import './../../styles/index.css';
 
 const Jumbotron = () => {
     return (
-        <div className="jumbotron bg-light p-4 mt-5 mx-5">
+        <div className="jumbotron bg-light p-md-4 mt-5 mx-3 mx-md-5">
             <h1 className="display-4">Hello, world!</h1>
             <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr className="my-4"/>
