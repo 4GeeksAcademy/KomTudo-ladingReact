@@ -3,7 +3,7 @@ import './../../styles/index.css';
 
 const ModuleCard = (props) => {
     return (
-        <div className="col-md-3">
+        <div className="col-md-6 col-lg-3">
             <div className="card d-flex dflex-row  m-1 p-2">
                 <img src={props.img} className="card-img-top" alt="..." />
                 <div className="card-body">
